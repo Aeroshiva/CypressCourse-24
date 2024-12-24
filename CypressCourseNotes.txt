@@ -1,0 +1,12 @@
+syntx:
+    npx cypress open --> open dashboard and run tests
+    npx cypress run --> via cmd and run all tests in e2e folder (headless mode)
+    npx cypress run --headed --> via cmd and run test 
+    npx cypress run --spec locationOfFile --> Ex: npx cypress run --spec cypress\e2e\myFirstTest.cy.js
+    npx cypress run --browser chrome --> via cmd and run all tests in e2e folder (headless mode) in chrome
+
+
+Hierarchy
+    Test Suite --> Test Cases --> Test Steps
+    Spec File(cy.js) --> describe blocks(Test Suites) --> it blocks(tests)
+
