@@ -28,6 +28,9 @@ Xpath-plugin
     npm install -D cypress-xpath 
     method -- cy.xpath(")
 
+Assertions
+    Implicit -- should & and  
+    Explicit -- expect(used in BDD) & assert (used in TDD)
     
         
 
