@@ -5,8 +5,29 @@ syntx:
     npx cypress run --spec locationOfFile --> Ex: npx cypress run --spec cypress\e2e\myFirstTest.cy.js
     npx cypress run --browser chrome --> via cmd and run all tests in e2e folder (headless mode) in chrome
 
+Commands.js --> need to be added
+    /// <reference types="Cypress"/> -- for cypress Commands
+    /// <reference types="Cypress-xpath"/> 
+
 
 Hierarchy
     Test Suite --> Test Cases --> Test Steps
     Spec File(cy.js) --> describe blocks(Test Suites) --> it blocks(tests)
+
+
+
+Locators
+    method -- cy.get(locator)
+    CSS Selectors 
+        tag id(#id)
+        tag class(.class), 
+        tag attribute(tag[attribute='value'])
+        tag class attribute tag.class[attribute='value']
+
+Xpath-plugin
+    npm install -D cypress-xpath 
+    method -- cy.xpath(")
+
+    
+        
 
